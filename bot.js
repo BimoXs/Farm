@@ -2,7 +2,7 @@
 //copyright © Angry Black 2020.//❦Angry Black❦
 
 const Discord = require("discord.js");
-const myid = ['Your ID'];//هنا بتحط الايدى بتاعك بتاع الديسكورد
+const myid = ['458292237294501898'];//هنا بتحط الايدى بتاعك بتاع الديسكورد
 const client = new Discord.Client();
 const client2 = new Discord.Client();
 const client3 = new Discord.Client();
@@ -770,7 +770,7 @@ client5.on('message', message => {
 
 client6.on('message', message => {
     if(message.content === '!rep'){
-        message.channel.send("#rep "+"<@" + myid + ">")
+        message.channel.send("#rep "+"<@" + 458292237294501898 + ">")
     }
 });
 
